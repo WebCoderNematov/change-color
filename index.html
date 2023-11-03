@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-file/css/bootstrap.min.css">
+    <title>Change Colors</title>
+</head>
+<body class="bg-dark">
+    <!-- <style>
+        d-none{display: none;}
+        d-block{display: block;}
+    </style> -->
+    <header class="bg-light w-100 position-fixed top-0 text-dark text-center py-3">
+        <div class="container">
+            <div class="header-inner">
+                <h2>Change Colors</h2>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero mt-5 d-flex align-items-center justify-content-center" style="min-height: 70vh; margin-top: 7rem;">
+            <div class="container">
+                <div class="hero-inner w-50 mx-auto text-light mt-5 text-center">
+
+                   <div class="row">
+                        <p class="red-value fs-3 py-1 px-1">0</p>
+                        <input type="range" class="form-control mb-3 col-xl-6" value="0" name="red" id="red">
+                        <p class="green-value fs-3 py-1 px-1">0</p>
+                        <input type="range" class="form-control mb-3 col-xl-6" value="0" name="green" id="green">
+                        <p class="blue-value fs-3 py-1 px-1">0</p>
+                        <input type="range" class="form-control mb-3 col-xl-6" value="0" name="blue" id="blue">   
+                        
+                        <button class="btn btn-primary copyBtn mt-2">set colors</button>
+                   </div>   
+                   
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./app.js"></script>
+    <script src="./bootstrap-file/js/bootstrap.min.js"></script>
+</body>
+</html>
